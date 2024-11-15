@@ -2,6 +2,30 @@
   font-family: sans-serif;
   text-align: center;
 }
+
 body {
   background-color: rgb(159, 117, 65);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#display {
+  background-color: white;
+  max-width: 400px;
+  margin-top: 40px;
+  width: 100%;
+  border: 2px solid black;
+  padding: 10px;
+  box-sizing: border-box;
+}
+button {
+  background-color: #f1f1f1;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  padding: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.1s ease;
 }
